@@ -109,7 +109,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
  */
 
 app.post("/agent", (req, res) => {
-    let body=res.body;
+    let body=req.body;
     getConnection()
       .then((conn) => {
         conn
@@ -207,7 +207,7 @@ app.get("/agents", (req, res) => {
  */
 
 app.put("/agent", (req, res) => {
-    let body=res.body;
+    let body=req.body;
     getConnection()
       .then((conn) => {
         conn
@@ -265,7 +265,7 @@ app.put("/agent", (req, res) => {
  */
 
   app.patch("/agent", (req, res) => {
-    let body=res.body;
+    let body=req.body;
     getConnection()
       .then((conn) => {
         conn
