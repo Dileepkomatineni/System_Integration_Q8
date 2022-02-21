@@ -9,9 +9,9 @@ const OPTIONS= {
     "definition": {
       "openapi": "3.0.0",
       "info": {
-        "title": "Swagger Express Excercise API Reference",
+        "title": "Swagger API Assignment",
         "version": "1.0.0",
-        "description": "A Simple Express Swagger API",
+        "description": "A Simple Swagger API",
         "termsOfService": "http://example.com/terms/",
         "contact": {
           "name": "Dileep Kumar Komatineni",
@@ -23,7 +23,7 @@ const OPTIONS= {
       "servers": [
         {
           "url": "http://143.198.97.47:3000/",
-          "description": "Swagger Express API Documentation"
+          "description": "Documentation for Swagger Express API"
         }
       ]
     },
